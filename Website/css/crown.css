@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-weight:300;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	color: #09402f;
+	background-color: #ffffff;
+}
+strong {
+	font-weight:400;
+}
+a {
+	color: #000000;
+}
+a:link {
+	color: #000000;
+	;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover, a:focus {
+	color: #472e8d;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+	color: #472e8d;
+}
+a:active, a:focus {
+	outline: none;
+ ie-dummy: expression(this.hideFocus=true);
+}
+:focus {
+	outline: none;
+}
+a[href^=tel] {
+color: inherit;
+}
+
+h1 {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 85px;
+	font-weight:400;
+	color: #000;
+	text-align:center;
+	text-decoration: none;
+	padding: 10px 10px 10px 0px;
+	margin: 0px 0px 20px 0px;
+}
+h2 {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 45px;
+	font-weight:400;
+	color: #000000;
+	text-align:center;
+	text-decoration: none;
+	padding: 10px 10px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+h3 {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 20px;
+	font-weight:400;
+	color: #000;
+	text-decoration: none;
+	padding: 10px 10px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* Nav */
+.masthead {
+	position:absolute;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	width:100%;
+	height:180px;
+	text-align:left;
+	color: #ffffff;
+	font-size:24px;
+	font-weight:300;
+	letter-spacing:-1px;
+	padding: 0px 0px 0px 0px;
+	z-index:10;
+	overflow:hidden;
+}
+.masthead_top {
+	position:relative;
+	height:80px;
+	padding: 20px 0px 0px 0px;
+	background-color: #1c3766;
+	background-color: rgba(28, 55, 102, 0.6);
+}
+.masthead_bottom {
+	position:relative;
+	height:100px;
+	padding: 20px 0px 0px 0px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.mast_container {
+	position:relative;
+	max-width:1200px;
+	height:100px;
+	margin: 0 auto;
+	padding: 15px 0px 5px 0px;
+	background-color: #ffffff;
+	z-index:101;
+}
+/* home carousel */
+
+
+
+
+/* start general */
+
+
+/* start footer */
+
+.footerwrap {
+	position:relative;
+	width:100%;
+	max-width:1200px;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	color: #1c3766;
+	font-size:18px;
+	font-weight:300;
+	text-align:center;
+	background: #ffffff;
+	padding: 60px 20px 80px 20px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+.footercopyright {
+	color: #1c3766;
+	font-size:18px;
+	font-weight:300;
+	text-transform:uppercase;
+}
+
+.footer_address {
+	padding: 0px 0px 40px 0px;
+}
+
+.footer_address a {
+	color: #659552;
+	font-size:18px;
+	font-weight:300;
+	letter-spacing:-1px;
+	text-decoration:none;
+}
+.footer_address a:hover {
+	color:#659552;
+	text-decoration:underline;
+}
+.rstar {
+	font-size:13px;
+	font-weight:300;
+	color:#5c5c5c;
+	padding: 0px 0px 0px 0px;
+}
+.rstar a {
+	color: #666666;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:300;
+	letter-spacing:1px;
+}
+.rstar a:hover {
+	color:#8a8a8a;
+	text-decoration: underline;
+}
+ @media (max-width: 991px) {
+
+.masthead {
+	position:absolute;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	width:100%;
+	height:88px;
+	text-align:left;
+	color: #ffffff;
+	font-size:24px;
+	font-weight:300;
+	letter-spacing:-1px;
+	padding: 0px 0px 0px 0px;
+	z-index:10;
+	overflow:hidden;
+}
+
+
+
+}
+ @media (max-width: 767px) {
+
+
+/* start footer */
+
+.footerwrap {
+	position:relative;
+	width:100%;
+	max-width:1200px;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	color: #5c5c5c;
+	font-size:17px;
+	font-weight:300;
+	text-align:center;
+	background: #ffffff;
+	padding: 60px 20px 60px 20px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.phone-left img {
+	text-align:left;	
+	width:250px;
+}
+}
+ @media (max-width: 550px) {
+.phone-left img {
+	width:200px;
+}
+}
+ @media (max-width: 450px) {
+
+
+}
+ @media (min-width: 1200px) {
+
+}
+ @media (min-width: 1400px) {
+
+ }
+ @media (min-width: 1600px) {
+.
+}
+ @media (min-width: 1800px) {
+
+}
