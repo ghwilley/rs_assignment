@@ -154,11 +154,36 @@ h3 {
 	margin: 0 auto;
 }
 .feats {
+	overflow: hidden;
+	padding-top: 80px;
 	text-align: center;
 }
-
+.feat-items {
+	background-color: #f7f8f9;
+}
+.feats-header {
+	background-color: #f7f8f9;
+	width: 100%;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	padding-bottom: 60px;
+	font-size: 60pt;
+	font-weight: 100;
+	letter-spacing: -3px;
+	color: #3f3f3f;
+}
+.line {
+	line-height: 0.5;
+	border-top: solid 1px #5c5c5c;
+}
 .product-sm {
+	padding-right: 40px;
+	display: inline-block;
 	max-width: 300px;
+}
+.product-sm-img {
+	padding-bottom: 60px;
+	background-color: #f7f8f9;
+
 }
 
 /* start footer */
