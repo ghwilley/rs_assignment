@@ -139,18 +139,51 @@ h3 {
 	padding-left: 40px;
 }
 .intro-sp {
+	width: 980px;
 	text-align: center;
 	font-size: 22pt;
 	font-weight: 100;
 	letter-spacing: -1px;
 	color: #5c5c5c;
 }
+.top-intro {
+	margin-bottom: 150px;
+}
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
 .feats {
+	overflow: hidden;
+	padding-top: 80px;
 	text-align: center;
 }
-
+.feat-items {
+	background-color: #f7f8f9;
+}
+.feats-header {
+	background-color: #f7f8f9;
+	width: 100%;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	padding-bottom: 60px;
+	font-size: 60pt;
+	font-weight: 100;
+	letter-spacing: -3px;
+	color: #3f3f3f;
+}
+.line {
+	line-height: 0.5;
+	border-top: solid 1px #5c5c5c;
+}
 .product-sm {
+	padding-right: 40px;
+	display: inline-block;
 	max-width: 300px;
+}
+.product-sm-img {
+	padding-bottom: 60px;
+	background-color: #f7f8f9;
+
 }
 
 /* start footer */
@@ -169,7 +202,6 @@ h3 {
 	overflow:hidden;
 	margin:0 auto;
 }
-
 .footercopyright {
 	color: #1c3766;
 	font-size:18px;
