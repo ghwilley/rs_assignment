@@ -177,15 +177,75 @@ h3 {
 }
 .product-sm {
 	padding-right: 40px;
-	display: inline-block;
+	display: block;
 	max-width: 300px;
 }
 .product-sm-img {
 	padding-bottom: 60px;
 	background-color: #f7f8f9;
-
 }
 
+.greenchoice {
+	padding-top: 150px;
+	width: 100%;
+}
+.prov-brands {
+	padding-top: 150px;
+}
+.prov-header {
+	width: 100%;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	padding-bottom: 60px;
+	font-size: 60pt;
+	font-weight: 100;
+	letter-spacing: -3px;
+	color: #3f3f3f;
+	text-align: center;
+}
+.prov-individual {
+	margin-bottom: 100px;
+	text-align: center;
+}
+.brandlogo {
+	width: 80%;
+}
+.brand-name {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 40pt;
+	font-weight: 300;
+	letter-spacing: -3;
+	color: #3f3f3f;
+	padding-top: 30px;
+}
+.brand-motto {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 17pt;
+	font-weight: 400;
+	letter-spacing: -3;
+	color: #5c5c5c;
+	padding-top: 20px;
+
+}
+.brand-desc {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 17pt;
+	font-weight: 100;
+	letter-spacing: -3;
+	color: #5c5c5c;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 25px;
+	height: 130px;
+}
+.cc-button {
+	margin-top: 30px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+	background-color: #FFF;
+	color: #919191;
+	vertical-align: middle;
+	border: 1px solid #919191;
+}
 /* start footer */
 
 .footerwrap {
