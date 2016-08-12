@@ -186,8 +186,26 @@ h3 {
    margin: 0 !important;
 }
 .prod-words {
+	padding: 60px 30px 0 30px;
 	/*background-color: #FFF;*/
 }
+.product-header {
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 30pt;
+	font-weight: 300;
+	letter-spacing: -3;
+	color: #3f3f3f;
+	padding-top: 30px;
+}
+.product-desc {
+	padding: 25px 15px 0 15px;
+	height: 120px;
+	/*display: inline-block;*/
+
+}
+
+
+
 .greenchoice {
 	padding-top: 150px;
 	width: 100%;
@@ -248,7 +266,51 @@ h3 {
 	color: #919191;
 	vertical-align: middle;
 	border: 1px solid #919191;
+	font-weight: 100;
+	font-size: 12pt;
 }
+.business-hands {
+	width: 100%;
+	height: 800px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/files/images/main/cc_main-privbrand-parallax-2x.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: inline-block;
+}
+.priv-brand {
+	color: #FFF;
+	font-weight: 300;
+	font-size: 120px;
+	text-align: center;
+	letter-spacing: -3px;
+
+}
+.priv-feat {
+	color: #FFF;
+	text-align:center;
+
+}
+.priv-desc {
+	color: #FFF;
+	text-align:center;
+
+}
+.busi-button {
+	margin-top: 30px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 5px;
+	background-color: #FFF;
+	color: #919191;
+	vertical-align: middle;
+	border: 1px solid #919191;
+	font-weight: 100;
+	font-size: 12pt;
+}
+
 /* start footer */
 
 .footerwrap {
