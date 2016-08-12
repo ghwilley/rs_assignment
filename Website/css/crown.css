@@ -187,6 +187,8 @@ h3 {
 }
 .prod-words {
 	padding: 60px 30px 0 30px;
+	color: #3f3f3f !important;
+
 	/*background-color: #FFF;*/
 }
 .product-header {
@@ -287,29 +289,198 @@ h3 {
 	font-size: 120px;
 	text-align: center;
 	letter-spacing: -3px;
-
 }
 .priv-feat {
 	color: #FFF;
 	text-align:center;
-
+	font-weight: 100;
+	font-size: 70px;
+	letter-spacing: -3px;
 }
 .priv-desc {
+	padding-top: 20px;
 	color: #FFF;
 	text-align:center;
-
+	font-weight: 100;
+	font-size: 40px;
+	letter-spacing: -3px;
 }
 .busi-button {
-	margin-top: 30px;
-	padding: 10px 30px 10px 30px;
+	margin-top: 60px;
+	padding: 7px 40px 7px 40px;
+	border-radius: 5px;
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.7);
+	color: #3f3f3f;
+	border: 1px solid #919191;
+	font-weight: 100;
+	font-size: 20pt;
+}
+.busi-text {
+	top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+}
+.star-header {
+	padding-top: 150px;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 60pt;
+	font-weight: 300;
+	letter-spacing: -6px;
+	color: #3f3f3f;
+	text-align: center;
+}
+.star-button {
+	margin: 60px 0 90px 0;
+	padding: 7px 30px 7px 30px;
 	border-radius: 5px;
 	background-color: #FFF;
 	color: #919191;
 	vertical-align: middle;
 	border: 1px solid #919191;
 	font-weight: 100;
-	font-size: 12pt;
+	font-size: 17pt;
 }
+.allstar-img {
+	width: 100%;
+}
+
+.clean-header {
+	padding: 150px 0 60px 0;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 50pt;
+	font-weight: 100;
+	letter-spacing: -6px;
+	color: #3f3f3f;
+	text-align: center;
+}
+.pro-img {
+	padding-bottom: 20px;
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	position: relative;
+	z-index: 1;
+}
+.clean-img-container {
+	
+
+}
+.clean-desc {
+	z-index: 3;
+	/*position: absolute;*/
+	position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%;
+	text-align:center;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 20pt;
+	font-weight: 200;
+	letter-spacing: -2px;
+	color: #fff;
+}
+.clean-pro {
+	padding-bottom: 150px;
+	overflow: hidden;
+}
+
+.form-area {
+	padding-top: 90px !important;
+	padding-bottom: 60px !important;
+	text-align: center;
+	color: #FFF;
+	width: 100%;
+	background-color: #3f3f3f;
+	padding: 0 20% 0 20%;
+	overflow: hidden;
+	/*padding-top: 150px;*/
+}
+.form-text {
+	width: 100%;
+}
+
+.form-contact {
+	/*display: inline-block;*/
+	/*padding: 30px 100px 30px 100px;*/
+	width: 50%;
+	border-bottom: 1px solid #fff;
+}
+.form-contact-container {
+	padding: 30px !important;
+
+}
+.address-header {
+	padding: 10px 0 0 40px;
+	text-align:left;
+	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
+	font-size: 20pt;
+	font-weight: 200;
+	letter-spacing: -2px;
+}
+.form-img {
+	padding: 30px !important;
+	/*display: inline-block;*/
+	width: 50%;
+}
+.form-field {
+	width: 100%;
+	height: 50px;
+	border: none;
+	margin: 10px;
+	padding: 10px;
+}
+.form-textarea {
+	margin: 10px;
+	width: 100%;
+	color: #919191;
+	padding: 10px;
+
+}
+.form-select {
+	width: 100%;
+	border: none;
+	color: #919191;
+	margin: 10px;
+}
+select {
+	height: 50px;
+	padding: 10px;
+	border:0;
+  background: #FFF;
+  border-radius: 0;
+  height:32px;
+  width:350px;
+  -webkit-appearance: none;
+}
+select.arrow {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    0px 1.5em;
+  background-repeat: no-repeat;
+}
+.submit-btn {
+	padding: 10px 20px 10px 20px;
+	font-size: 20pt;
+	font-weight: 100;
+	width: 100%;
+	border: none;
+	color: #FFF;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid #FFF;
+	background-color: transparent;
+}
+
 
 /* start footer */
 
