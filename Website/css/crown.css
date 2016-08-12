@@ -228,6 +228,13 @@ h3 {
 .prov-individual {
 	margin-bottom: 100px;
 	text-align: center;
+	border-right: 1px solid #d2d3d4;
+}
+.prov-individual:last-of-type {
+	border: none;
+}
+.prov-individual:nth-of-type(3) {
+	border: none;
 }
 .brandlogo {
 	width: 80%;
@@ -616,8 +623,31 @@ select.arrow {
 
 }
  @media (max-width: 767px) {
+.motto {
+	font-size: 35pt;
+}
+.intro-sp {
+	width: 80%;
+	font-size: 20pt;
+	font-weight: 100;
+}
+.top-intro {
+	margin-bottom: 150px;
+}
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
 
-
+.feats-header {
+	font-size: 55pt;
+}
+.prov-header {
+	font-size: 55pt;
+}
+.clean-header {
+	font-size: 55pt;
+}
 /* start footer */
 
 .footerwrap {
@@ -643,9 +673,26 @@ select.arrow {
 .phone-left img {
 	width:200px;
 }
+.feats-header {
+	font-size: 55pt;
+}
+.prov-header {
+	font-size: 55pt;
+}
+.clean-header {
+	font-size: 55pt;
+}
 }
  @media (max-width: 450px) {
-
+.feats-header {
+	font-size: 55pt;
+}
+.prov-header {
+	font-size: 55pt;
+}
+.clean-header {
+	font-size: 55pt;
+}
 
 }
  @media (min-width: 1200px) {
