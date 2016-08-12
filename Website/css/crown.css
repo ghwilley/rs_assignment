@@ -401,27 +401,39 @@ h3 {
 }
 
 .form-contact {
-	/*display: inline-block;*/
-	/*padding: 30px 100px 30px 100px;*/
-	width: 50%;
+	text-align: left;
+	padding: 0 15px 15px 0;
 	border-bottom: 1px solid #fff;
+	font-weight: 400;
+	font-size: 17pt;
 }
 .form-contact-container {
-	padding: 30px !important;
+	overflow: hidden;
+	padding: 0 0 0 20px !important;
 
 }
 .address-header {
-	padding: 10px 0 0 40px;
+	padding: 10px 0 0 0px;
 	text-align:left;
 	font-family: "acumin-pro-wide-1","acumin-pro-wide-2",sans-serif;
-	font-size: 20pt;
-	font-weight: 200;
-	letter-spacing: -2px;
+	font-size: 15pt;
+	font-weight: 100;
+	letter-spacing: -2;
 }
 .form-img {
-	padding: 30px !important;
+	padding: 10px 30px 30px 30px !important;
 	/*display: inline-block;*/
 	width: 50%;
+}
+.form-email {
+	display: inline;
+	font-weight: 200;
+	font-size: 13pt;
+	letter-spacing: -3;
+}
+.form-msg {
+	padding: 20px 0 40px 0;
+	font-weight: 100;
 }
 .form-field {
 	width: 100%;
