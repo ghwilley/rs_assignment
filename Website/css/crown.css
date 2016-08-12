@@ -158,9 +158,7 @@ h3 {
 	padding-top: 80px;
 	text-align: center;
 }
-.feat-items {
-	background-color: #f7f8f9;
-}
+
 .feats-header {
 	background-color: #f7f8f9;
 	width: 100%;
@@ -175,16 +173,21 @@ h3 {
 	line-height: 0.5;
 	border-top: solid 1px #5c5c5c;
 }
-.product-sm {
-	padding-right: 40px;
-	display: block;
+
+.product-sm-img {
 	max-width: 300px;
 }
-.product-sm-img {
-	padding-bottom: 60px;
+.prod-img-container {
 	background-color: #f7f8f9;
+	padding: 0 0 60px 0;
 }
-
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.prod-words {
+	/*background-color: #FFF;*/
+}
 .greenchoice {
 	padding-top: 150px;
 	width: 100%;
